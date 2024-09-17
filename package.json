@@ -1,5 +1,5 @@
 {
-  "name": "electron-notify",
+  "name": "notify-electron",
   "version": "0.0.1",
   "description": "Cross-platform custom notifications for Electron",
   "keywords": [
@@ -8,14 +8,14 @@
     "notifications",
     "nodejs"
   ],
-  "homepage": "https://github.com/rixcian/electron-notify",
+  "homepage": "https://github.com/rixcian/notify-electron",
   "bugs": {
-    "url": "https://github.com/rixcian/electron-notify/issues"
+    "url": "https://github.com/rixcian/notify-electron/issues"
   },
   "author": "rixcian <rostislav.kremecek@protonmail.com> (https://rixcian.dev)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rixcian/electron-notify.git"
+    "url": "git+https://github.com/rixcian/notify-electron.git"
   },
   "files": [
     "dist"
@@ -43,6 +43,7 @@
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.16.4",
+    "@changesets/cli": "^2.27.8",
     "prettier": "^3.3.3",
     "tsup": "^8.3.0",
     "typescript": "^5.6.2",
