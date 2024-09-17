@@ -1,6 +1,6 @@
 {
   "name": "notify-electron",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Cross-platform custom notifications for Electron",
   "keywords": [
     "electron",
@@ -15,7 +15,7 @@
   "author": "rixcian <rostislav.kremecek@protonmail.com> (https://rixcian.dev)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rixcian/notify-electron.git"
+    "url": "git+https://github.com/rixcian/electron-notify.git"
   },
   "files": [
     "dist"
