@@ -38,6 +38,8 @@
     "ci": "npm run format && npm run check-format && npm run lint && npm run test && npm run build && npm run check-exports",
     "format": "prettier --write .",
     "lint": "tsc",
+    "prepublishOnly": "npm run ci",
+    "release": "changeset version && changeset publish",
     "test": "vitest run",
     "watch": "tsc -w"
   },
