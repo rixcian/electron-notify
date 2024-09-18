@@ -1,0 +1,17 @@
+{
+  "name": "notify-electron-simple-example",
+  "version": "1.0.0",
+  "description": "Simple example usage of notify-electron",
+  "main": "main.js",
+  "author": "rixcian <rostislav.kremecek@protonmail.com> (https://rixcian.dev)",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^32.1.0"
+  },
+  "dependencies": {
+    "notify-electron": "file:../.."
+  }
+}
