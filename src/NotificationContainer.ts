@@ -1,4 +1,5 @@
 import * as path from 'path';
+import * as os from 'os';
 import { BrowserWindow, ipcMain, screen } from 'electron';
 import type { BrowserWindowConstructorOptions } from 'electron';
 
@@ -61,7 +62,7 @@ class NotificationContainer {
     const displayWidth = display.workArea.x + display.workAreaSize.width;
     const displayHeight = display.workArea.y + display.workAreaSize.height;
 
-    options.height = displayHeight;
+    options.height = os.platform() === 'darwin' ? displayHeight - 40 : displayHeight;
     options.width = NotificationContainer.CONTAINER_WIDTH;
     options.alwaysOnTop = true;
     options.skipTaskbar = true;

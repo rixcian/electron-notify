@@ -12,6 +12,8 @@
     "electron": "^32.1.0"
   },
   "dependencies": {
-    "notify-electron": "file:../.."
+    "notify-electron": "file:../..",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }

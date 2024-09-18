@@ -30,10 +30,13 @@ app.whenReady().then(async () => {
     .notification {
       display: block;
       padding: 20px;
-      background-color: #fff;
-      border-radius: 12px;
-      margin: 10px;
-      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+      background: rgba(0, 0, 0, 0.75); /* Black with transparency */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Optional: shadow effect */
+      backdrop-filter: blur(10px); /* Blurring the background */
+      -webkit-backdrop-filter: blur(10px); /* Support for Safari */
+      color: white; /* Text color */
+      border-radius: 8px;
+      margin: 4px;
     }
     .notification h1 {
       font-weight: bold;
@@ -51,7 +54,7 @@ app.whenReady().then(async () => {
     `,
 
     // OPTIONAL: Specify a timeout.
-    // timeout: 3000,
+    timeout: 3000000,
   });
 
   // When the notification was clicked.
